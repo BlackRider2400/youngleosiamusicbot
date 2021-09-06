@@ -1,4 +1,4 @@
-//client token ODgyMDI2MDQ1NjM1NzA2OTIw.YS1YxA.ZSGREv22RiHIVcmvGcgs2c85uOI
+//client token 
 const { Client, Intents } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
@@ -14,4 +14,4 @@ client.on('interactionCreate', async interaction => {
   }
 });
 
-client.login('ODgyMDI2MDQ1NjM1NzA2OTIw.YS1YxA.ZSGREv22RiHIVcmvGcgs2c85uOI');
+client.login('token');
